@@ -1,0 +1,134 @@
+* {
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* @keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+} */
+
+.about {
+    padding: 70px;
+    animation: fadeInDown 3s ease-in-out;
+}
+
+.abt {
+    padding: 30px 20px;
+    animation: fadeInDown 2s 2s ease-in-out;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.about.animated {
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.abt.animated {
+    animation: fadeInDown 1s 0.5s ease-in-out;
+}
+
+.abt h1 {
+    color: black;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.abt p {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    align-items: center;
+    font-size: 19px;
+    color: black;
+    padding: 10px 0;
+}
+
+#more {
+    display: none;
+}
+
+#more:target {
+    display: block;
+}
+
+.gallery h2 {
+    text-align: center;
+    padding: 27px 0;
+    color: black;
+    font-weight: bold;
+}
+
+.gallery .imgs img {
+    transition: transform 0.3s;
+}
+
+.gallery .imgs:hover img {
+    transform: scale(1.3);
+}
+
+.emg {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.banner img {
+    height: 85vh;
+}
+
+.banner {
+    padding-top: 60px;
+}
+
+.emg .late_btn {
+    font-size: 18px;
+    padding: 8px 45px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #3a3f58;
+    border: 1px solid #ee89e6;
+}
+
+.emg .late_btn a {
+    color: yellowgreen;
+}
+
+.emg .late_btn:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.emg .late_btn a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.about {
+    padding-top: 100px;
+}
+
+.gallery {
+    padding-top: 60px;
+}
+
+.form_s {
+    padding-top: 100px;
+}
